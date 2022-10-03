@@ -9,6 +9,12 @@ This calculator project is going to contain functions for all of the following b
     Division (/)
 
 ## Layout
+
+The goal is to design this calculator found on Google images.
+
+<img width="415" alt="Screen Shot 2022-10-03 at 1 00 07 PM" src="https://user-images.githubusercontent.com/61169982/193636711-5ed0e16f-3f43-46ae-85da-84155d913a57.png">
+
+
 Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
 Create a basic HTML calculator with buttons for each digit, each of the above functions and an “Equals” key.
 Do not worry about wiring up the JS just yet.
