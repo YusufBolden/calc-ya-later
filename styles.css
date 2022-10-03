@@ -31,3 +31,7 @@ button {
     font-family: monospace;
     color: black;
 }
+
+#zero {
+    grid-column: span 2;
+}
