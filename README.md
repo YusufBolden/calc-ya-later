@@ -1,7 +1,7 @@
-# odin-calculator
+# odin-calculator - editing in progress
 
 ## Introduction
-This calculator project is going to contain functions for all of the following basic math operators typically found on simple calculators:
+This HTML calculator project is going to contain functions for all of the following basic math operators typically found on simple calculators:
 
     Addition (+)
     Subtraction (-)
@@ -14,15 +14,10 @@ The goal is to design this calculator found on Google images.
 
 <img width="415" alt="Screen Shot 2022-10-03 at 1 00 07 PM" src="https://user-images.githubusercontent.com/61169982/193636711-5ed0e16f-3f43-46ae-85da-84155d913a57.png">
 
+## Functionality
 
-Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
-Create a basic HTML calculator with buttons for each digit, each of the above functions and an “Equals” key.
-Do not worry about wiring up the JS just yet.
-There should also be a display for the calculator. Go ahead and fill it with some dummy numbers so it looks correct.
-Add a “clear” button.
-Create the functions that populate the display when you click the number buttons. You should be storing the ‘display value’ in a variable somewhere for use in the next step.
-Make the calculator work! You’ll need to store the first number that is input into the calculator when a user presses an operator, and also save which operation has been chosen and then operate() on them when the user presses the “=” key.
-You should already have the code that can populate the display, so once operate() has been called, update the display with the ‘solution’ to the operation.
+To make the calculator work, the calculator will need to store the first number that is input into the calculator when a user presses an operator, and also save which operation has been chosen and then operate() on them when the user presses the “=” key. The code will populate the display, so once operate() has been called, the display will update with the ‘solution’ to the operation.
+
 This is the hardest part of the project. You need to figure out how to store all the values and call the operate function with them. Don’t feel bad if it takes you a while to figure out the logic.
 Gotchas: watch out for and fix these bugs if they show up in your code:
 Users should be able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, 12 + 7 - 5 * 3 = should yield 42. An example of the behavior we’re looking for would be this student solution.
