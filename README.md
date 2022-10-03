@@ -10,7 +10,7 @@ This HTML calculator project is going to contain functions for all of the follow
 
 ## Layout
 
-The goal is to design this calculator found on Google images.
+The goal is to design this calculator found on Google images. The colors were matched using https://redketchup.io/color-picker.
 
 <img width="415" alt="Screen Shot 2022-10-03 at 1 00 07 PM" src="https://user-images.githubusercontent.com/61169982/193636711-5ed0e16f-3f43-46ae-85da-84155d913a57.png">
 
