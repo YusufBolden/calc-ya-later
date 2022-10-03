@@ -21,3 +21,13 @@
     text-shadow: 1.3px 1.3px #383838;
     margin: 5px;
 }
+
+button {
+    margin: 1px;
+    border-radius: 5%;
+    border: none;
+    font-weight: initial;
+    font-size: 2em;
+    font-family: monospace;
+    color: black;
+}
