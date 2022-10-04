@@ -13,6 +13,7 @@ This HTML calculator project is going to contain functions for all of the follow
     Equals (=)
     Clear (AC)
     Plus/Minus (+/-)
+    Display window
 
 ## Layout
 
