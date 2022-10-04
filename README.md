@@ -1,12 +1,16 @@
 # odin-calculator - editing in progress
 
 ## Introduction
-This HTML calculator project is going to contain functions for all of the following basic math operators typically found on simple calculators:
+This HTML calculator project is going to contain functions for all of the following basic math operators and buttons typically found on simple calculators:
 
+    Numbers (0-9)
     Addition (+)
     Subtraction (-)
     Multiplication (*)
     Division (/)
+    Decimal (.)
+    Percentage (%)
+    Equals (=)
     Clear (AC)
     Plus/Minus (+/-)
 
