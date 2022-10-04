@@ -51,3 +51,30 @@ button {
 #zero {
     grid-column: span 2;
 }
+.operator {
+    background-color: #FF8F1F;    
+}
+
+.equals {
+    background-color: #FF8F1F;
+}
+
+.operand {
+    background-color: #217C7E;
+}
+
+.decimal {
+    background-color: #217C7E;
+}
+
+.clear {
+    background-color: #1E90FF;
+}
+
+.sign {
+    background-color: #1E90FF;
+}
+
+.percent {
+    background-color: #1E90FF;
+}
