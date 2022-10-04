@@ -34,8 +34,9 @@ Figuring out how to store all the values and call the operate function with them
 
     1. Users should be able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, 12 + 7 - 5 * 3 = should yield 42.
 
-    2. The calculator should not evaluate more than a single pair of numbers at a time. Example: you press a number button (12), followed by an operator button (+), a second number button (7), and finally a second operator button (-).
-        (a) The calculator should then do the following: first, evaluate the first pair of numbers (12 + 7), second, display the result of that calculation (19), and finally, use that result (19) as the first number in your new calculation, along with the next operator (-).
+    2. The calculator should not evaluate more than a single pair of numbers at a time. Example: you press a number button (12), followed by an operator button (+), a second number button (7), a second operator button (-), a third number button (5), a third operator button (*), a fourth number button (3) and finally the equals operator button (=) .
+
+    The calculator should then do the following: first, evaluate the first pair of numbers (12 + 7), second, display the result of that calculation (19), and then, use that result (19) as the first number in your new calculation, along with the next operator (19 - 5) and then calculate (14 * 3) and then produce the result (42) after the user presses the equals (=) button.
 
     3. The calculator should round answers with long decimals so that they don’t overflow the screen.
     4. Pressing = before entering all of the numbers or an operator could cause problems!
