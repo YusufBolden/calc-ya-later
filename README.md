@@ -50,9 +50,12 @@ Figuring out how to store all the values and call the operate function with them
 
     3. The calculator should round answers with long decimals so that they don’t overflow
     the screen.
+
     4. Pressing = before entering all of the numbers or an operator could cause problems!
+
     5. Pressing “clear” should wipe out any existing data.. Make sure the user is really
-    starting fresh after pressing “clear”
+    starting fresh after pressing “clear”.
+
     6. Users should be unable to type more than one decimal per input. (Ex. 12.3.56.5).
     It is hard to do math on these numbers. Therefore, the decimal button is disabled if
     there’s already one in the display.
