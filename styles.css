@@ -51,30 +51,59 @@ button {
 #zero {
     grid-column: span 2;
 }
+
 .operator {
     background-color: #FF8F1F;    
+}
+
+.operator:focus {
+    background-color: #ffc183;
 }
 
 .equals {
     background-color: #FF8F1F;
 }
 
+.equals:active {
+    background-color: #ffc183;
+}
+
 .operand {
     background-color: #217C7E;
+}
+
+.operand:active {
+    background-color: #33b9bb;
 }
 
 .decimal {
     background-color: #217C7E;
 }
 
+.decimal:active {
+    background-color: #33b9bb;
+}
+
 .clear {
     background-color: #1E90FF;
+}
+
+.clear:active {
+    background-color: rgb(123, 189, 255);
 }
 
 .sign {
     background-color: #1E90FF;
 }
 
+.sign:active {
+    background-color: rgb(123, 189, 255);
+}
+
 .percent {
     background-color: #1E90FF;
+}
+
+.percent:active {
+    background-color: rgb(123, 189, 255);
 }
