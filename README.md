@@ -7,6 +7,8 @@ This HTML calculator project is going to contain functions for all of the follow
     Subtraction (-)
     Multiplication (*)
     Division (/)
+    Clear (AC)
+    Plus/Minus (+/-)
 
 ## Layout
 
