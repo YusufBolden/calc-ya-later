@@ -64,13 +64,13 @@ after the user presses the equals (=) button.
 
 The [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) method [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) returns the first [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
 
+The [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target.
+
 The [KeyboardEvent.code](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) property represents a physical key on the keyboard (as opposed to the character generated
 by pressing the key). In other words, this property returns a value that isn't altered by
 keyboard layout or the state of the modifier keys.
 
 The Document method [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're
 a useful way to get access to a specific element quickly.
-
-The [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target.
 
 The [Element.classList()](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) is a read-only property that returns a live [DOMTokenList()](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList) collection of the class attributes of the element. This can then be used to manipulate the class list.
