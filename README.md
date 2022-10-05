@@ -69,8 +69,8 @@ keyboard layout or the state of the modifier keys.
 The Document method [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) returns the first Element within the document that matches the specified
 selector, or group of selectors. If no matches are found, null is returned.
 
-The [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) method of the EventTarget interface sets up a function that will be  
-called whenever the specified event is delivered to the target.
+The [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) method of the EventTarget interface sets up a function that will be called whenever  
+the specified event is delivered to the target.
 
 The Document method [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're
 a useful way to get access to a specific element quickly.
