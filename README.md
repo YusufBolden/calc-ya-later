@@ -74,3 +74,5 @@ the specified event is delivered to the target.
 
 The Document method [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're
 a useful way to get access to a specific element quickly.
+
+The [Element.classList()](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) is a read-only property that returns a live DOMTokenList collection of the class attributes of the element. This can then be used to manipulate the class list.
