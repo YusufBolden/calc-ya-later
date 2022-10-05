@@ -66,8 +66,7 @@ The [KeyboardEvent.code](https://developer.mozilla.org/en-US/docs/Web/API/Keyboa
 by pressing the key). In other words, this property returns a value that isn't altered by
 keyboard layout or the state of the modifier keys.
 
-The [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) method [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) returns the first Element within the document that matches the specified
-selector, or group of selectors. If no matches are found, null is returned.
+The [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) method [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) returns the first [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
 
 The [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) method of the EventTarget interface sets up a function that will be called whenever  
 the specified event is delivered to the target.
