@@ -7,7 +7,7 @@ let result = null;
 const buttons = document.querySelectorAll("button");
 
 window.addEventListener("keydown", function (e) {
-  const key = document.querySelector(`button[data-key='${e.key}']`);
+  const key = document.querySelector(`button[data-key='${e.code}']`);
   key.click();
 });
 
