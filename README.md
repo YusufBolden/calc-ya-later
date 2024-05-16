@@ -72,3 +72,5 @@ The Document method [getElementById()](https://developer.mozilla.org/en-US/docs/
 a useful way to get access to a specific element quickly.
 
 The [Element.classList()](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) is a read-only property that returns a live [DOMTokenList()](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList) collection of the class attributes of the element. This can then be used to manipulate the class list.
+
+Have fun and CALC-YA-LATER!
